@@ -1,4 +1,4 @@
-package com.example.msscbrewery.web.model;
+package com.example.msscbrewery.web.model.v2;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,14 +7,13 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
-@Deprecated
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDto {
+public class BeerDtoV2 {
     private UUID id;
     private String beerName;
-    private String beerStyle;
+    private BeerStyle beerStyle;
     private Long upc;
 }
