@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
+@Deprecated
 @Service
 public class BeerServiceImpl implements BeerService {
     @Override
