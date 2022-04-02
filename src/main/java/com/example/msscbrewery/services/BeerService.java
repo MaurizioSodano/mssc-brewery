@@ -1,4 +1,4 @@
-package com.example.msscbrewery.web.services;
+package com.example.msscbrewery.services;
 
 import com.example.msscbrewery.web.model.BeerDto;
 

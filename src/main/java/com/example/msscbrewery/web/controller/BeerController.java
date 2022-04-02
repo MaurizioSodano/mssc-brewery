@@ -1,7 +1,7 @@
 package com.example.msscbrewery.web.controller;
 
 import com.example.msscbrewery.web.model.BeerDto;
-import com.example.msscbrewery.web.services.BeerService;
+import com.example.msscbrewery.services.BeerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
